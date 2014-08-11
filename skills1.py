@@ -88,7 +88,7 @@ def average(numbers):
     for num in numbers:
         sum += num
 
-    return sum/len(numbers)
+    print float(sum)/len(numbers)
 
 # function calls with test lists
 # some_list = [13, 50, 2, 14]
