@@ -84,16 +84,11 @@ def join_strings(string_list):
 
 # Write a function that takes a list of integers and returns the average (without using the avg method)
 def average(numbers):
-    number_count = 0
+    sum = 0
     for num in numbers:
-        number_count += 1
+        sum += num
 
-    mult_total = 1
-    for num in numbers:
-        mult_total = mult_total * num
-    num_avg = mult_total / number_count
-    
-    return num_avg 
+    return sum/len(numbers)
 
 # function calls with test lists
 # some_list = [13, 50, 2, 14]
